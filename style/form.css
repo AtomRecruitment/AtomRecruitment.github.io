@@ -11,6 +11,8 @@ body {
 }
 
 .container{
+  max-width: 800px;
+  width: 800px;
   padding: 25px 40px 10px 40px;
 }
 .container .text{
