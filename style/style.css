@@ -87,6 +87,9 @@ li::before {
   .mob-hr {
     display: block;
   }
+  .no-padding-container {
+    padding: 0;
+  }
 }
 
 
