@@ -5,6 +5,19 @@
   list-style: none;
   box-sizing: border-box;
 }
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Background image */
 body {
   font-family: 'Kanit', sans-serif;
@@ -92,7 +105,9 @@ li::before {
   }
 }
 
-
+.no-padding-container {
+  animation: transitionIn 0.65s ease-in;
+}
 
 .nav {
   display: flex;
